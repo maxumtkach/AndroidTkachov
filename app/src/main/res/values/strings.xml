@@ -1,9 +1,16 @@
 <resources>
-    <string name="app_name">AndroidTkachov</string>
+    <string name="app_title">Имя пользавателя</string>
+    <string name="app_email">Электронная почта</string>
+    <string name="name_value"></string>
+
+
+    <string name="app_name">Подписка</string>
 
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
-    <string name="dummy_button"></string>
+    <string name="dummy_button">DUMMY BUTTON</string>
     <string name="dummy_content"></string>
 
     <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="button_ok">OK</string>
+    <string name="button_clear">очистить</string>
 </resources>
