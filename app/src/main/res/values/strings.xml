@@ -13,4 +13,7 @@
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="button_ok">OK</string>
     <string name="button_clear">очистить</string>
+    <string name="app_photo">Просмотр фото</string>
+    <string name="end">вперед</string>
+    <string name="start">назад</string>
 </resources>

@@ -24,10 +24,10 @@ public class FirstActivity extends AppCompatActivity {
         nameEditText = findViewById(R.id.editText_name);
         emailEditText = findViewById(R.id.editText_email);
 
-        Button clickOkButton = findViewById(R.id.button_ok);
+        Button clickOkButton = findViewById(R.id.button_start);
         clickOkButton.setOnClickListener(clickOkListener);
 
-        Button clickClearButton = findViewById(R.id.button_clear);
+        Button clickClearButton = findViewById(R.id.button_end);
         clickClearButton.setOnClickListener(clickClearListener);
 
     }
@@ -45,7 +45,7 @@ public class FirstActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-            messageText.setText("");
+            messageText.setText(null);
         }
     };
 }
