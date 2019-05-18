@@ -25,7 +25,7 @@ public class FullscreenActivity extends AppCompatActivity {
     int max = 100;
     int number = min + random.nextInt(max - min + 1);
 
-    @SuppressLint("WrongViewCast")
+    @SuppressLint({"WrongViewCast", "SetTextI18n"})
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
 
@@ -33,6 +33,8 @@ public class FullscreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fullscreen);
 
         messagePhoto = findViewById(R.id.text_message_photo);
+        messagePhoto.setText(" " + number);
+
         Button clickStartButton = findViewById(R.id.button_start);
         clickStartButton.setOnClickListener(clickStartListener);
 
